@@ -1,7 +1,8 @@
 import React from 'react'
+import { AppRoutes } from './router/AppRoutes'
 
 export const PrincipalPage = () => {
   return (
-    <div> Hola "Naombre del usuario ", Bienvenido a la pagina principal  </div>
+    <AppRoutes/>
   )
 }

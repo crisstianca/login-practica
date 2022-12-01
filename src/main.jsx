@@ -1,13 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { LoginPage } from './LoginPage'
 import { BrowserRouter } from 'react-router-dom' 
+import { PrincipalPage } from './PrincipalPage'
+import { Provider } from 'react-redux'
+import { store } from './store/store'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <LoginPage />
-    </BrowserRouter>
+    <Provider store={ store }>
+      <BrowserRouter>
+        <PrincipalPage />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 )

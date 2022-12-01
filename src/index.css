@@ -1,6 +1,4 @@
 
-
-
 .img-facebook svg {
   color: #0d6efd;
 
@@ -15,4 +13,18 @@
 body {
   background: #ffe259;
   background: linear-gradient(to right, #51b9ff, #fcfcfc);
+}
+
+img {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 900px;
+}
+
+#img-perfil {
+  width: 50px ;
+  border-radius: 50%;
 }
